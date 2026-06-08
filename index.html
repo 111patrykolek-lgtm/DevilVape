@@ -9,7 +9,6 @@
   <link rel="icon" href="img/logo-devil.png" type="image/png">
 </head>
 <body>
-  <!-- Top bar -->
   <div class="top-bar">
     <div class="container">
       <span>DARMOWA DOSTAWA OD 199 PLN</span>
@@ -17,10 +16,9 @@
     </div>
   </div>
 
-  <!-- Header / Navbar -->
   <header class="header">
     <div class="container header-inner">
-      <a href="#" class="logo">
+      <a href="index.html" class="logo">
         <img src="img/logo-devil.png" alt="DevilVape logo">
         <div class="logo-text">
           <span class="logo-main">DEVILVAPE</span>
@@ -30,12 +28,12 @@
 
       <nav class="nav">
         <ul>
-          <li><a href="#shop">Sklep</a></li>
-          <li><a href="#new">Nowości</a></li>
-          <li><a href="#bestsellers">Bestsellery</a></li>
-          <li><a href="#about">O marce</a></li>
-          <li><a href="#blog">Blog</a></li>
-          <li><a href="#contact">Kontakt</a></li>
+          <li><a href="sklep.html">Sklep</a></li>
+          <li><a href="sklep.html#nowosci">Nowości</a></li>
+          <li><a href="sklep.html#bestsellery">Bestsellery</a></li>
+          <li><a href="o-marce.html">O marce</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
         </ul>
       </nav>
 
@@ -57,19 +55,17 @@
     </div>
   </header>
 
-  <!-- Mobile nav -->
   <nav class="nav-mobile" id="nav-mobile">
     <ul>
-      <li><a href="#shop">Sklep</a></li>
-      <li><a href="#new">Nowości</a></li>
-      <li><a href="#bestsellers">Bestsellery</a></li>
-      <li><a href="#about">O marce</a></li>
-      <li><a href="#blog">Blog</a></li>
-      <li><a href="#contact">Kontakt</a></li>
+      <li><a href="sklep.html">Sklep</a></li>
+      <li><a href="sklep.html#nowosci">Nowości</a></li>
+      <li><a href="sklep.html#bestsellery">Bestsellery</a></li>
+      <li><a href="o-marce.html">O marce</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
     </ul>
   </nav>
 
-  <!-- Hero section -->
   <section class="hero">
     <div class="hero-bg">
       <img src="img/hero-bg.jpg" alt="DevilVape hero">
@@ -83,8 +79,8 @@
           Piekielnie dobre smaki. Anielska jakość.
         </p>
         <div class="hero-buttons">
-          <a href="#bestsellers" class="btn btn-primary">Kup teraz</a>
-          <a href="#new" class="btn btn-secondary">Poznaj smaki</a>
+          <a href="sklep.html#bestsellery" class="btn btn-primary">Kup teraz</a>
+          <a href="sklep.html#nowosci" class="btn btn-secondary">Poznaj smaki</a>
         </div>
         <div class="hero-features">
           <span>Wysoka jakość</span>
@@ -98,7 +94,6 @@
     </div>
   </section>
 
-  <!-- Feature icons -->
   <section class="features-bar">
     <div class="container features-grid">
       <div class="feature-item">
@@ -124,22 +119,17 @@
     </div>
   </section>
 
-  <!-- Bestsellers -->
   <section class="section" id="bestsellers">
     <div class="container">
       <div class="section-header">
         <h2>Bestsellery</h2>
         <p>Piekielnie dobre smaki</p>
-        <a href="#shop" class="btn btn-outline">Zobacz wszystkie</a>
+        <a href="sklep.html#bestsellery" class="btn btn-outline">Zobacz wszystkie</a>
       </div>
-
-      <div class="products-grid" id="products-grid">
-        <!-- Produkty zostaną wygenerowane przez JS -->
-      </div>
+      <div class="products-grid" id="products-grid"></div>
     </div>
   </section>
 
-  <!-- New flavors -->
   <section class="section" id="new">
     <div class="container">
       <div class="section-header">
@@ -169,12 +159,11 @@
         </article>
       </div>
       <div class="center">
-        <a href="#shop" class="btn btn-outline">Zobacz wszystkie smaki</a>
+        <a href="sklep.html#nowosci" class="btn btn-outline">Zobacz wszystkie smaki</a>
       </div>
     </div>
   </section>
 
-  <!-- About brand -->
   <section class="section" id="about">
     <div class="container about-grid">
       <div class="about-text">
@@ -186,7 +175,7 @@
         <p>
           Produkcja odbywa się w UE, z wykorzystaniem certyfikowanych składników spełniających wymagania TPD.
         </p>
-        <a href="#contact" class="btn btn-secondary">Dowiedz się więcej</a>
+        <a href="o-marce.html" class="btn btn-secondary">Dowiedz się więcej</a>
       </div>
       <div class="about-logo">
         <img src="img/about-devil.png" alt="DevilVape emblem">
@@ -194,7 +183,6 @@
     </div>
   </section>
 
-  <!-- Newsletter -->
   <section class="section" id="contact">
     <div class="container newsletter-grid">
       <div class="newsletter-text">
@@ -213,7 +201,7 @@
     </div>
   </section>
 
-  <!-- Cart / Checkout modal -->
+  <!-- Modale koszyka i checkout (jak wcześniej) -->
   <div class="cart-overlay" id="cart-overlay">
     <div class="cart-modal">
       <button class="cart-close" id="cart-close">&times;</button>
@@ -229,7 +217,6 @@
     </div>
   </div>
 
-  <!-- Checkout modal -->
   <div class="cart-overlay" id="checkout-overlay">
     <div class="cart-modal">
       <button class="cart-close" id="checkout-close">&times;</button>
@@ -272,7 +259,6 @@
     </div>
   </div>
 
-  <!-- Footer -->
   <footer class="footer">
     <div class="container footer-grid">
       <div class="footer-col">
